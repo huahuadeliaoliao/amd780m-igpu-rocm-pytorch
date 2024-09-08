@@ -12,4 +12,8 @@ WORKDIR /home
 
 RUN pip install -U pip
 
+# Enable Yolov8
 RUN pip install -U numba ultralytics
+
+# Enable jupyter
+RUN pip install ipython ipykernel
